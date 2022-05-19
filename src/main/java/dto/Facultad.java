@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -34,7 +35,7 @@ public class Facultad {
 	private List<Equipo> Equipo;
 
 	public Facultad() {
-		super();
+	
 	}
 
 	public Facultad(int id, String nombre, List<Investigador> investigador, List<Equipo> equipo) {
@@ -62,10 +63,13 @@ public class Facultad {
 	}
 
 	@JsonIgnore
+	
 	public List<Investigador> getInvestigador() {
 		return Investigador;
 	}
 
+	@JsonIgnore
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Ivestigador")
 	public void setInvestigador(List<Investigador> investigador) {
 		Investigador = investigador;
 	}
@@ -75,6 +79,8 @@ public class Facultad {
 		return Equipo;
 	}
 
+	@JsonIgnore
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Equipos")
 	public void setEquipo(List<Equipo> equipo) {
 		Equipo = equipo;
 	}

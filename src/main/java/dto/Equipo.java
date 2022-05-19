@@ -48,8 +48,6 @@ public class Equipo {
 		this.reserva = reserva;
 	}
 
-
-
 	// Getters & Setters
 	
 	public int getId() {
