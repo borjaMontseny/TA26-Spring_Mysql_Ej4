@@ -5,7 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import dao.IFacultadDAO;
+import com.ta26.ej4.dao.IFacultadDAO;
+
 import dto.Facultad;
 
 @Service

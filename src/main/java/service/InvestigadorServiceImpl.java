@@ -5,7 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import dao.IInvestigadorDAO;
+import com.ta26.ej4.dao.IInvestigadorDAO;
+
 import dto.Investigador;
 
 @Service
