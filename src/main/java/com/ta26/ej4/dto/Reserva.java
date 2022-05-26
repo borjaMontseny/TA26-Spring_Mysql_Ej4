@@ -1,4 +1,4 @@
-package dto;
+package com.ta26.ej4.dto;
 
 import java.util.Date;
 import javax.persistence.Entity;

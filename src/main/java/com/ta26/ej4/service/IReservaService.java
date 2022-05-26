@@ -1,8 +1,8 @@
-package service;
+package com.ta26.ej4.service;
 
 import java.util.List;
 
-import dto.Reserva;
+import com.ta26.ej4.dto.Reserva;
 
 public interface IReservaService {
 

@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dto.Investigador;
-import service.InvestigadorServiceImpl;
+import com.ta26.ej4.dto.Investigador;
+import com.ta26.ej4.service.InvestigadorServiceImpl;
 
 @RestController
 @RequestMapping("/api")

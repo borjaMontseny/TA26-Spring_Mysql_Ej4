@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dto.Equipo;
-import service.EquipoServiceImpl;
+import com.ta26.ej4.dto.Equipo;
+import com.ta26.ej4.service.EquipoServiceImpl;
 
 @RestController
 @RequestMapping("/api")

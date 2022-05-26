@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dto.Reserva;
-import service.ReservaServiceImpl;
+import com.ta26.ej4.dto.Reserva;
+import com.ta26.ej4.service.ReservaServiceImpl;
 
 @RestController
 @RequestMapping("/api")

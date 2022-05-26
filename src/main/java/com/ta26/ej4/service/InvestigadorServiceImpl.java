@@ -1,4 +1,4 @@
-package service;
+package com.ta26.ej4.service;
 
 import java.util.List;
 
@@ -6,8 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ta26.ej4.dao.IInvestigadorDAO;
-
-import dto.Investigador;
+import com.ta26.ej4.dto.Investigador;
 
 @Service
 public class InvestigadorServiceImpl implements IInvestigadorService {
